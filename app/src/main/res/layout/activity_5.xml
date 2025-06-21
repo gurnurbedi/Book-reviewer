@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bgaura"
+    tools:context=".Activity5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate the books of the month!"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/op2"
+        android:layout_marginBottom="10dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:id="@+id/imgv1"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:src="@drawable/tatat" />
+
+        <RatingBar
+            android:id="@+id/ratingBar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@android:string/ok"
+            android:numStars="5"
+            android:stepSize="0.5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:id="@+id/imgv2"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:src="@drawable/tml" />
+
+        <RatingBar
+            android:id="@+id/ratingBar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@android:string/no"
+            android:numStars="5"
+            android:stepSize="0.5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:id="@+id/imgv3"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:src="@drawable/hp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar3"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="@android:string/copy"
+            android:numStars="5"
+            android:stepSize="0.5" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Rating" />
+</LinearLayout>
