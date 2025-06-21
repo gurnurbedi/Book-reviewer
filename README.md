@@ -2,5 +2,4 @@
 <br>
 <h3> The Android app is made in the Android Studio IDE. </h3> 
 <br>
-<br>
 <h3> Integrated Database in the app, MySQL has been used for storing and retrieving the data, that is the Book details such as book name, author's name and etc.</h3>
