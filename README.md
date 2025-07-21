@@ -19,3 +19,30 @@ Database has been itegrated in the Android Application using MySQL, which has be
 - **Stores Reviews in DB:** Saves user entered reviews along with the user name in the database.
 - **Star Rating System:** Allows users to rate books between 1 to 5 stars (including float values).
 - **Search & Reviews Submission:** Allows users to search books by title then write and submit the reviews for the book
+
+## Dependencies
+
+```bash
+implementation 'androidx.appcompat:appcompat:1.3.1'
+implementation 'com.google.android.material:material:1.12.0'
+implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+testImplementation 'junit:junit:4.13.2'
+androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
+
+// https://mvnrepository.com/artifact/mysql/mysql-connector-java
+implementation 'mysql:mysql-connector-java:5.1.49'
+```
+
+## SDKs used
+
+
+```bash
+compileSdk 34
+minSdk 25
+targetSdk 34
+```
+    
+## Acknowledgements
+
+- [MySQL Connection](https://youtu.be/mbHvLSwhdLA?si=fZ8Wv3NaYcBAWXPF)
