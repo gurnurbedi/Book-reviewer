@@ -2,6 +2,6 @@
 <h3> The Android app is made in the Android Studio IDE using Java. </h3> 
 <h3> Database has been itegrated in the Android Application using MySQL, which has been used for storing and retrieving the data which consists of the Book details such as the book name, author's name along with the book reviews which can be entered and read by the users.</h3>
 
-![Uploading 1.png…]()
-![Uploading 1.png…]()
+<img width="236" height="513" alt="1" src="https://github.com/user-attachments/assets/160907b3-89f8-41d8-9547-610d85a7f181" />
+
 
