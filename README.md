@@ -4,5 +4,4 @@
 
 ![Uploading image.png…]()
 
-![image description](relative/path/in/repository/to/image.svg)
-![525](https://github.com/user-attachments/assets/5a64c068-e087-4185-8305-e57a7c4962a4)
+
