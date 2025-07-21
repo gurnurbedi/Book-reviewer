@@ -11,3 +11,9 @@ The Android app has been made in the Android Studio IDE using Java.
 
 Database has been itegrated in the Android Application using MySQL, which has been used for storing and retrieving the data which consists of the Book details such as the book name, author's name along with the book reviews which can be entered and read by the users.
 
+## Features
+
+- **Book Info Retrieval:** Pulls book details such as the title, author and reviews from the database.
+- **Stores Reviews in DB:** Saves user entered reviews along with the user name in the database.
+- **Star Rating System:** Allows users to rate books between 1 to 5 stars (including float values).
+- **Search & Reviews Submission:** Allows users to search books by title then write and submit the reviews for the book
